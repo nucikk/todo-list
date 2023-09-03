@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/reset.css">
+    <link rel="stylesheet" href="./style/style.css">
+    <script defer src="./functional.js"></script>
+    <title>Todo App</title>
+</head>
+<body>
+      <header>
+        <!-- Navigation -->
+        <div class="navbar">
+            <h2 class="logo">TODO</h2>
+          <nav class="nav_item">
+            <ul class="nav_list active">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Join</a></li>
+                <li><a href="#">Todo</a></li>
+            </ul>
+          </nav>
+          <div>
+
+            <div>
+              <img
+                id="burgerIcon"
+                class="menu_icon burger"
+                src="./image/menu.png"
+                alt="burger-icon"
+              />
+     
+              <i class="fa-solid fa-bars"></i>
+              <img
+                id="closeIcon"
+                class="menu_icon close"
+                src="./image/closure.png"
+                alt="close-icon"
+              />
+            </div>
+          </div>
+        </div>
+      </header>
+      <!-- TODO:| Section -->
+      <main>
+        <section class="todo_section">
+          <h2>Todo List</h2>
+
+          <div class="todo_container">
+            <input class="todo_input" type="text" placeholder="Enter your list"> 
+            <button class="delete_all_btn" type="button">Delete All</button> 
+            <ul class="todo_list">   </ul>
+            <button class="add_btn" type="button">ADD</button>
+          </div>
+         
+        </section>
+      </main>
+
+   
+</body>
+</html>
